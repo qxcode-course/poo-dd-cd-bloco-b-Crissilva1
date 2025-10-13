@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-09_00-04-51",
+            "content": "class Camiseta:\n    def __init__(self, tamanho:str = (\" \")):\n        self.tamanho : str = tamanho\n\n\n    def set_tamanho(self, valor : str ):\n        if valor == \"PP\" :\n            self.tamanho = valor\n        if valor == \"P\" :\n            self.tamanho = valor  \n        if valor == \"M\" :\n            self.tamanho = valor\n        if valor == \"G\" :\n             self.tamanho = valor\n        if valor == \"GG\" :\n             self.tamanho = valor\n        if valor == \"XG\" :\n             self.tamanho = valor\n\n        def get_tamanho(self)-> str:\n        return self.__tamanho \n\n        def __str__ (self):         \n            return f\"{self.__tamanho}\"\n     \n       \n        else:\n            print (f\"error , {valor} n\u00e3o \u00e9 um tamanho valido\")\n            print (\"tamanhos validos, s\u00e3o: \"PP\" , \"P\", \"M\" , \"G\" , \"GG\" , \"XG\". \")\n\ndef main():\n    camiseta= Camiseta()\n    while camiseta.get_tamanho() == 0:\n        valor = int(input(\"escolha o tamanho da sua camiseta!\"))\n        camiseta.setTamanho(tamanho) \n            break \n  \n    print (\"camiseta escolhida! tamanho da camisa: \", camiseta.get_tamanho() )\n    \nmain()            \n",
+            "lines": "40"
+        }
+    ]
+}

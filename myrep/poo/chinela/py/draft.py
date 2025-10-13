@@ -7,7 +7,7 @@ class Chinela:
         if valor % 2 != 0 and  valor < 20 or valor >50 :
             print ("tamanho errado")
             return False
-        self.__tmanho = valor
+        self.__tamanho = valor
         return True
 
     def get_tamanho(self)-> int :
