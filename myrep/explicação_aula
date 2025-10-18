@@ -1,0 +1,14 @@
+relação forte - composição
+posse
+um depende do outro
+
+
+
+relação fraca- agregação
+um completa o outro, mas não dependem dele para existir
+o que vem depois desses complementos são "interface"
+ex:casa->morador->pessoa(interface)->adulto/criança(herança)
+
+
+!= quer dizer diferente de 
+none retira o que não quer mais 
