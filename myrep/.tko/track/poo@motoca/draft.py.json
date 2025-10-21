@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-21_19-57-48",
+            "content": "@@ -1319,24 +1319,25 @@\n utes%22)%0A%0A    \n+ \n def __str__(\n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-21_19-58-35",
+            "content": "@@ -563,15 +563,13 @@\n soa)\n--%3E\n+:\n bool\n-:\n %0A   \n@@ -594,25 +594,25 @@\n ente != None\n-:\n+ \n %0A           \n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-21_19-59-59",
+            "content": "@@ -790,15 +790,13 @@\n soa)\n--%3E\n+:\n None\n-:\n %0A   \n@@ -817,33 +817,33 @@\n _cliente != None\n-:\n+ \n %0A           prin\n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-21_20-00-50",
+            "content": "@@ -1645,17 +1645,16 @@\n = %22show%22\n-:\n %0A       \n@@ -1702,17 +1702,16 @@\n  %22enter%22\n-:\n %0A       \n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-21_20-01-07",
+            "content": "class Pessoa:\n    def __init__(self, nome: str , idade:int):\n        self.__nome = nome\n        self.__idade = idade\n\n    def get_Age (self)-> int:\n        return self.__Age\n\n    def get_name (self)-> str:\n        return self.__name\n\n    def __str__(self):\n        return f\"(self.__name):(self.__age)\"\n\nclass Motoca:\n    def __init__(self, potencia:int , tempo :int, cliente: Pessoa = None):\n        self.__potencia : int = 1\n        self.__tempo : int = 0                \n        self.__cliente : Pessoa | None = \"empty\"\n    \n    def inserir(self, cliente : Pessoa)->bool:\n        if self.__cliente != None:\n           print (\"fail: busy motorcycle\")\n           return False\n        else:\n            self.__cliente = cliente\n            return True\n\n\n    def remover (self, cliente : Pessoa)->None:\n        if self.__cliente != None:\n           print (\"fail: busy motorcycle\")\n           return None\n        aux: Pessoa = self.__cliente\n        self.__cliente = None\n        return aux\n\n    def drive (self, time: int):\n        if self.__tempo == 0:\n         print(\"fail: buy time first\")\n        if self.__cliente == None:\n         print (\"fail: empty motorcycle\") \n        if self.__age > 10:\n           print (\"fail: too old to drive\")\n        if self.__tempo <= 0:\n            print (\"fail: time finished after X minutes\")\n\n    def __str__(self):\n        return f\"(self.__potencia):(self.__tempo):(self.__pessoa)\"\n\n\n\ndef main ():\n    motoca = Motoca\n    while True :\n        line : str = input ()\n        print (\"$\" + line )\n        args : list [str] = line.split (\" \")\n        if args[0] == \"end\":\n            break\n        if args [0] == \"show\":\n            print (motoca)\n        if args[0] == \"enter\":\n            nome.args[1]\n            idade.args(int[2])\n            cliente= Pessoa (nome, idade)\n            motoca.inserir(cliente)\n\nmain()            \n        \n",
+            "lines": "70"
+        }
+    ]
+}
