@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-cd-bloco-b-Crissilva1/myrep/.tko/cache/poo.md
-  cache_timestamp: '2025-10-21 19:56:45'
+  cache_timestamp: '2025-10-25 17:34:18'
   filters:
   - acesso
   - simples
@@ -19,12 +19,30 @@ expanded:
 tasks:
   poo@chinela: '{rate:80, human:nao, iagen:sim_duvidas_do_conceito_do_set, guide:nao,
 
+
+
+
+
+
+
     other:sim_anotacoes, alone:8, study:65}'
   poo@camisa: '{rate:80, human:nao, alone:9}'
   poo@roupa: '{human:nao, iagen:sim_para_duvidas, guide:nao, other:sim_anotacoes,
 
+
+
+
+
+
+
     alone:9, study:90}'
   poo@relogio: '{human:sim_monitor, iagen:sim_duvidas_de_estrutura, guide:nao, other:nao,
+
+
+
+
+
+
 
     alone:7, study:420}'
 flags:
