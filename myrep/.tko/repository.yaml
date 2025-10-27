@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-cd-bloco-b-Crissilva1/myrep/.tko/cache/poo.md
-  cache_timestamp: '2025-10-26 22:19:25'
+  cache_timestamp: '2025-10-27 19:22:48'
   filters:
   - acesso
   - simples
@@ -29,7 +29,7 @@ flags:
   quests: 0
   tracks: 0
   tasks: 0
-  graph: 0
+  graph: 1
   xray: 0
 lang: py
 selected: poo@grafite
